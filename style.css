@@ -1,0 +1,38 @@
+html, h1 {
+    height: 180%;
+    width: 100%;
+  }
+  /* Business Banner, Logo*/
+  #banner {
+    background-color: #808080;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: overline underline;
+  }
+
+  #pets1 {
+    color: white;
+    }
+
+/* Add padding and hover effect to the links within the topnav class */
+.topnav a {
+    padding: 10px 20px; 
+    background-color: #f2f2f2; /* Set the default background color */
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  /* Add hover effect to change the background color on hover */
+  .topnav a:hover {
+    background-color: #dd697b; /* Change the background color on hover */
+    color: white; /* Change text color on hover if needed */
+  }
+  
+  /* Set a fun background color for the entire website */
+body {
+    background-color: #dddddd; 
+  }
+  
