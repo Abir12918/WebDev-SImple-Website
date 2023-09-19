@@ -27,7 +27,7 @@ html, h1 {
   
   /* Add hover effect to change the background color on hover */
   .topnav a:hover {
-    background-color: #dd697b; /* Change the background color on hover */
+    background-color: #1c2951; /* Change the background color on hover */
     color: white; /* Change text color on hover if needed */
   }
   
@@ -84,6 +84,7 @@ body {
 #logo {
   width: 100px; /* Adjust the width as needed */
 }
+
 
 
 
