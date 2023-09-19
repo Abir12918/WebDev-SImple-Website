@@ -63,3 +63,16 @@ body, h1, h2, ul, p {
     padding: 10px;
     color: white;
   }
+
+    /* Center the home button */
+    .home-button {
+      display: block;
+      text-align: center;
+      margin: 10px auto;
+      text-decoration: none;
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      width: 120px;
+    }
