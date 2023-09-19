@@ -35,4 +35,56 @@ html, h1 {
 body {
     background-color: #dddddd; 
   }
+
+/* Style for the Tell Math Joke button */
+#tellJoke {
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #444444;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
   
+  #tellJoke:hover {
+    background-color: #192841;
+    transform: scale(1.05);
+  }
+  
+ /* Style for the Math Jokes display */
+#jokeDisplay {
+    font-size: 36px; /* Make the jokes big */
+    font-weight: bold; /* Make the jokes bold */
+    text-align: center; /* Center the jokes */
+    padding: 20px; /* Add padding around the jokes */
+    background-color: #f2f2f2; /* Set a background color for the jokes */
+    border: 2px solid #333; /* Add a border for the jokes */
+    border-radius: 10px; /* Round the corners */
+    margin-top: 20px; /* Add space between the jokes and the button */
+  }
+  
+/* Style for the footer */
+#footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff; /* Optional background color */
+  padding: 10px; /* Optional padding */
+  z-index: 999; /* Adjust the z-index as needed */
+}
+
+/* Style for the logo image */
+#logo {
+  width: 100px; /* Adjust the width as needed */
+}
+
+
+
+
