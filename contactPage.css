@@ -1,0 +1,97 @@
+/* Reset some default browser styles */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color */
+  body {
+    background-color: #f2f2f2; /* Light grey background */
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark grey text color */
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #3498db; /* Blue header background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Section styles */
+  section {
+    background-color: #f2f2f2; /* Light grey section background */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Center the section content */
+  }
+  
+  /* Heading styles */
+  h2 {
+    color: #3498db; /* Blue heading color */
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* List styles */
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Review styles */
+  .review {
+    border: 1px solid #ccc; /* Grey border for reviews */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .review-author {
+    font-style: italic;
+    color: #666; /* Grey author text color */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #3498db; /* Blue footer background */
+    text-align: center;
+    padding: 10px;
+    color: white;
+  }
+  
+  /* Center the home button */
+  .home-button {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 120px;
+  }
+  
+  /* Style for the contact methods */
+  .contact-method {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .contact-method img {
+    max-width: 80px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .contact-method p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333; /* Dark grey text color */
+  }
+  
