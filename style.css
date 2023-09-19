@@ -85,6 +85,23 @@ body {
   width: 100px; /* Adjust the width as needed */
 }
 
+/* Center the images horizontally and vertically */
+#bottom-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add some margin at the top */
+  position: relative; /* Set the container to a relative position */
+}
+
+/* Style the "shsat-logo" image */
+#shsat-logo {
+  max-width: 400px; /* Increase the maximum width as needed */
+  max-height: 300px; /* Adjust the maximum height as needed */
+  margin-right: 20px; /* Add some spacing between the two images */
+}
+
+
 
 
 
