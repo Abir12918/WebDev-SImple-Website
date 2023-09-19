@@ -1,5 +1,3 @@
-/* Styling for About me Page */
-
 /* Reset some default browser styles */
 body, h1, h2, ul, p {
     margin: 0;
@@ -23,17 +21,19 @@ body, h1, h2, ul, p {
   
   /* Section styles */
   section {
-    background-color: white;
+    background-color: #f2f2f2; /* Light grey section background */
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Center the section content */
   }
   
   /* Heading styles */
   h2 {
     color: #3498db; /* Blue heading color */
     margin-bottom: 10px;
+    text-align: center;
   }
   
   /* List styles */
@@ -63,16 +63,35 @@ body, h1, h2, ul, p {
     padding: 10px;
     color: white;
   }
-
-    /* Center the home button */
-    .home-button {
-      display: block;
-      text-align: center;
-      margin: 10px auto;
-      text-decoration: none;
-      background-color: #3498db;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
-      width: 120px;
-    }
+  
+  /* Center the home button */
+  .home-button {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 120px;
+  }
+  
+  /* Style for the contact methods */
+  .contact-method {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .contact-method img {
+    max-width: 80px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .contact-method p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333; /* Dark grey text color */
+  }
+  
